@@ -1,0 +1,12 @@
+2017-08-14 23:12:47,066 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-08-14 23:12:47,586 [main] INFO  practice.env - 
+-=[practice started successfully using the development profile]=- 
+2017-08-14 23:12:47,819 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-08-14 23:12:47,995 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-08-14 23:12:48,443 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-08-14 23:12:48,446 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-08-14 23:12:48,473 [main] INFO  practice.core - #'practice.config/env started 
+2017-08-14 23:12:48,474 [main] INFO  practice.core - #'practice.handler/init-app started 
+2017-08-14 23:12:48,474 [main] INFO  practice.core - #'practice.core/http-server started 
+2017-08-14 23:12:48,474 [main] INFO  practice.core - #'practice.core/repl-server started 
+2017-08-14 23:14:29,251 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 

@@ -1,0 +1,24 @@
+2017-08-17 21:55:50,863 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-08-17 21:55:51,604 [main] INFO  practice.env - 
+-=[practice started successfully using the development profile]=- 
+2017-08-17 21:55:51,850 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-08-17 21:55:52,036 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-08-17 21:55:52,518 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-08-17 21:55:52,522 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-08-17 21:55:52,562 [main] INFO  practice.core - #'practice.config/env started 
+2017-08-17 21:55:52,563 [main] INFO  practice.core - #'practice.handler/init-app started 
+2017-08-17 21:55:52,563 [main] INFO  practice.core - #'practice.core/http-server started 
+2017-08-17 21:55:52,564 [main] INFO  practice.core - #'practice.core/repl-server started 
+2017-08-17 22:00:15,901 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-08-17 22:18:29,533 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 
+2017-08-17 22:18:30,018 [main] INFO  practice.env - 
+-=[practice started successfully using the development profile]=- 
+2017-08-17 22:18:30,252 [main] INFO  luminus.http-server - starting HTTP server on port 3000 
+2017-08-17 22:18:30,446 [main] INFO  org.xnio - XNIO version 3.3.6.Final 
+2017-08-17 22:18:30,971 [main] INFO  org.projectodd.wunderboss.web.Web - Registered web context / 
+2017-08-17 22:18:30,974 [main] INFO  luminus.repl-server - starting nREPL server on port 7000 
+2017-08-17 22:18:31,001 [main] INFO  practice.core - #'practice.config/env started 
+2017-08-17 22:18:31,002 [main] INFO  practice.core - #'practice.handler/init-app started 
+2017-08-17 22:18:31,002 [main] INFO  practice.core - #'practice.core/http-server started 
+2017-08-17 22:18:31,002 [main] INFO  practice.core - #'practice.core/repl-server started 
+2017-08-17 22:20:36,259 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider 

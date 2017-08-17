@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="google-signin-client_id" content="429763007107-414ulk5n038g8krka1h0jvobqv7fb2a0.apps.googleusercontent.com">
+      <title>Welcome to practice</title>
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
+  </head>
+  <body>
+    
+    <div id="app">
+      </div>
+    <!--<div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div><a href="#" onclick="signOut();">Sign out</a></div>
+    
+
+    <!-- scripts and styles -->
+    {% style "/assets/bootstrap/css/bootstrap.min.css" %}
+    {% style "/assets/font-awesome/css/font-awesome.min.css" %}
+    {% style "/css/screen.css" %}
+
+    <script type="text/javascript">
+        var context = "{{servlet-context}}";
+        var csrfToken = "{{csrf-token}}";
+    </script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>     
+    {% script "/js/app.js" %}
+    <script>function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}</script>
+    <script>
+  function signOut() {
+  var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+      console.log('User signed out.');
+    });
+  }
+</script>
+  </body>
+</html>
